@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="shortcut icon"
+      href="/Imagenes/cropped-itf-fist.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">
+        <img src="/Imagenes/logo1.png" alt="Logo" />
+      </a>
+      <nav>
+        <ul class="nav_list">
+          <li><a class="nav_link" href="index.html">Inicio</a></li>
+          <li><a class="nav_link" href="Dias.html">Dias</a></li>
+          <li><a class="nav_link" href="indumentaria.html">indumentaria</a></li>
+          <li><a class="nav_link" href="cints.html">Cinturones y Formas</a></li>
+          <li><a class="nav_link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Contacto</h1>
+    <form action="">
+      <fieldset>
+        <legend>Contacto</legend>
+        <label for="nombre">Nombre :</label>
+        <input type="text" name="nombre" id="nombre" />
+
+        <label for="apellido">Apellido :</label>
+        <input type="text" name="apellido" id="apellido" />
+        <div>Sexo:</div>
+        <div>Hombre</div>
+        <input type="radio" name="sexo" id="sexo" value="hombre" />
+        <div>Mujer</div>
+        <input type="radio" name="sexo" id="sexo" value="mujer" />
+        <div>Terminos y condiciones</div>
+        <input type="checkbox" name="acepta" id="aceptar" />
+
+        <select name="Edad" id="Edad">
+          <option value="Kids">Kids</option>
+          <option value="Infantil">Infantil</option>
+          <option value="Juevenil">Juevenil</option>
+          <option value="Adulto">Adulto</option>
+        </select>
+
+        <label for="Email">Email</label>
+
+        <textarea name="Email" id="" cols="30" rows="1"></textarea>
+
+        <label for="mensaje">Mensaje</label>
+
+        <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar seleccion" />
+      </fieldset>
+    </form>
+    <footer>
+      <div><a class="cont" href="contacto.html">Contacto</a></div>
+      <a class="sm" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="sm" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="sm" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    </footer>
+  </body>
+</html>
