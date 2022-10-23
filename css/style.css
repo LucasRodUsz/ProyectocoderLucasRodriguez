@@ -93,16 +93,49 @@ footer {
   right: 100%;
   top: 100%;
 }
-
 .inst {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
 .display__dias {
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
 }
 
+.Hor__main {
+  padding: 50px;
+}
+
+.d-title {
+  text-align: center;
+}
+
+.cints {
+  text-align: center;
+}
+
+.cints__pa {
+  padding: 20px;
+}
+
+.cints__am {
+  padding: 20px;
+}
+
+.cints__pv {
+  padding: 20px;
+}
+
+.cints__ve {
+  padding: 20px;
+}
+
+.cints__paz {
+  padding: 20px;
+}
 @media (min-width: 768px) {
   .act {
     width: 80%;
