@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+}
+.nav_list {
+  display: none;
+}
+
 .titulo {
   color: rgb(115, 67, 170);
   text-align: center;
@@ -108,7 +114,11 @@ footer {
 .Hor__main {
   padding: 50px;
 }
-
+.Map__info {
+  padding: 15px;
+  text-align: center;
+  max-width: 600px;
+}
 .d-title {
   text-align: center;
 }
@@ -136,8 +146,6 @@ footer {
 .cints__paz {
   padding: 20px;
 }
-@media (min-width: 768px) {
-  .act {
-    width: 80%;
-  }
+
+@media (min-width: 1024px) {
 }
