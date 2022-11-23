@@ -1,0 +1,22 @@
+@mixin cints {
+  padding: 20px;
+}
+
+.cints__pa {
+  @include cints;
+}
+
+.cints__am {
+  @include cints;
+}
+.cints__pv {
+  @include cints;
+}
+
+.cints__ve {
+  @include cints;
+}
+
+.cints__paz {
+  @include cints;
+}

@@ -4,4 +4,40 @@
   box-sizing: border-box;
 }
 
+footer {
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.Map__info {
+  padding: 15px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.cints__pa {
+  padding: 20px;
+}
+
+.cints__am {
+  padding: 20px;
+}
+
+.cints__pv {
+  padding: 20px;
+}
+
+.cints__ve {
+  padding: 20px;
+}
+
+.cints__paz {
+  padding: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
