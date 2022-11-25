@@ -1,5 +1,9 @@
 @mixin cints {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cints__pa {
@@ -18,5 +22,21 @@
 }
 
 .cints__paz {
+  @include cints;
+}
+
+.cints__az {
+  @include cints;
+}
+
+.cints__pr {
+  @include cints;
+}
+
+.cints__ro {
+  @include cints;
+}
+
+.cints__pn {
   @include cints;
 }
