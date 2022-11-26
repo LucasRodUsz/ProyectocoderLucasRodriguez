@@ -16,6 +16,15 @@
   max-width: 800px;
 }
 
+.principios {
+  text-align: center;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: black;
   text-align: center;
@@ -38,6 +47,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__am {
@@ -46,6 +57,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__pv {
@@ -54,6 +67,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__ve {
@@ -62,6 +77,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__paz {
@@ -70,6 +87,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__az {
@@ -78,6 +97,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__pr {
@@ -86,6 +107,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__ro {
@@ -94,6 +117,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 .cints__pn {
@@ -102,6 +127,8 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
